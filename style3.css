@@ -1,0 +1,23 @@
+.label_content {position: absolute;}
+.label_content > input {display:none;
+}
+.label_content > input + label + div {
+  display: none;
+  width: 200px;
+  height: 400px;
+  background: white;
+  border: solid 2px hotpink;
+  position: absolute;
+  top: 100%;
+  bottom: 100%;
+  transform: translate(-50%, 50%)
+}
+.label_content > input:checked + label + div {display: block;}
+.label_content > input + label + div + label {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translate(-50%, 50%);
+  background: black;
+  color: white;
+  padding: 20px;

@@ -1,0 +1,64 @@
+
+h1 { max-width: inherit;
+  text-align: center;
+      border-bottom: 2px solid hotpink;
+      padding-bottom: 80px;
+      padding-top: 80px;
+      padding-right: 0px;
+      margin: 0px;
+      font-size: 50px;
+      color: hotpink;}
+body > h1 > a{ color: hotpink;}
+body {margin: 0px;
+      max-width: 1500px;}
+hr {color: black;
+    background-color: black;}
+ul {margin: 0px;
+    padding: 10px}
+#grid {display: grid;
+       grid-template-rows: 230px 1fr; }
+h3 {padding: 0px;
+  font-size: 15px;
+      text-align: center;
+      color: hotpink;}
+
+ul li {font-size: 20px; list-style: none; padding: 0px;
+       display: inline;}
+       ul, li {list-style: none;}
+       a {text-decoration: none;
+          color: black;}
+
+       .menu_wrap .dep2 {display: none;
+                         background: hotpink;
+                         text-align: left;}
+       .menu_wrap .dep1 {font-size: 0;}
+       .menu_wrap .dep1 > li {
+         border: hotpink 2px solid;
+         background: url("image/img_4580.jpg");
+         background-size: 28%;
+         background-position: center;
+         display: block;
+         margin-bottom: 30px;
+         vertical-align: top;
+         font-size: 20px;
+         text-align: center;
+
+
+       }
+       .menu_wrap .dep1 > li > a {display: block;
+                                  padding: 30px;
+                                  text-align: center;
+                                  color: hotpink;
+                                  }
+
+       .menu_wrap .dep1 > li:hover > .dep2 {display: block;}
+       .menu_wrap .dep1 > li:hover > .dep2 > li {text-align: left;}
+       .menu_wrap .dep1 > li:hover > a {background: black;
+                                    color: white;}
+       .menu_wrap .dep2 > li > a:hover {text-decoration: underline;
+                                    text-align: left;
+                                    }
+       .menu_wrap .dep2 > li > a {text-align: left;
+                                  font-size: 13px;
+                                  color: white;}
+                                          }
