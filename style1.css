@@ -34,7 +34,7 @@ ul li {font-size: 20px; list-style: none; padding: 0px;
        .menu_wrap .dep1 {font-size: 0;}
        .menu_wrap .dep1 > li {
          border: hotpink 2px solid;
-         background: url("./image/img_4580.jpg");
+         background: url("img_4580.jpg");
          background-size: 28%;
          background-position: center;
          display: block;
