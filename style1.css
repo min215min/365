@@ -8,6 +8,7 @@ h1 { max-width: inherit;
       margin: 0px;
       font-size: 50px;
       color: hotpink;}
+h1 > a {display: block;}
 body > h1 > a{ color: hotpink;}
 body {margin: 0px;
       max-width: 1500px;}
